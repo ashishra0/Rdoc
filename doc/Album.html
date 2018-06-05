@@ -101,6 +101,8 @@
 
   <section class="description">
     
+<p><a href="Album.html">Album</a> class</p>
+
   </section>
 
   
@@ -126,7 +128,7 @@
 
         <div class="method-description">
         
-        
+        <p>Setter and getter method</p>
         
         </div>
       </div>
@@ -154,13 +156,13 @@
 
         <div class="method-description">
           
-          
+          <p>creates empty songs array upon instantiation of new object.</p>
           
           
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File album.rb, line 5</span>
+            <pre><span class="ruby-comment"># File album.rb, line 8</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>
   <span class="ruby-ivar">@songs</span> = []
 <span class="ruby-keyword">end</span></pre>
@@ -195,13 +197,13 @@
 
         <div class="method-description">
           
-          
+          <p>Adds new song to the songs array</p>
           
           
 
           
           <div class="method-source-code" id="add_song-source">
-            <pre><span class="ruby-comment"># File album.rb, line 9</span>
+            <pre><span class="ruby-comment"># File album.rb, line 13</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">add_song</span>(<span class="ruby-identifier">song</span>)
   <span class="ruby-identifier">songs</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">song</span>
 <span class="ruby-keyword">end</span></pre>
@@ -228,13 +230,13 @@
 
         <div class="method-description">
           
-          
+          <p>iterates over songs in the songs array</p>
           
           
 
           
           <div class="method-source-code" id="each-source">
-            <pre><span class="ruby-comment"># File album.rb, line 13</span>
+            <pre><span class="ruby-comment"># File album.rb, line 18</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">each</span>
   <span class="ruby-identifier">songs</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">song</span><span class="ruby-operator">|</span>
     <span class="ruby-keyword">yield</span> <span class="ruby-identifier">song</span>
